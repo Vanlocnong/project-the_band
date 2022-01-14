@@ -3,7 +3,7 @@
 .grid{
     width: 1215px;
     max-width: 100%;
-    margin: 0 220px 220px;
+    margin: 0 220px 0 220px;
 
 }
 
@@ -15,15 +15,23 @@
 }
 
 .grid__all{
-    width: 100%;
+    width: 767px;
     max-width: 100%;
-    margin-left: 200px;
+    margin-left: 222px;
     display: flex;
 }
 
 .grid__3{
-    
     width: 33.4%;
     margin-left: 10px;
     margin-right: 10px;
+    background-color: #fff;
 }
+
+.tour-date__item__img{
+    width: 100%;
+    height: 20%;
+    object-fit: contain;
+}
+
+
